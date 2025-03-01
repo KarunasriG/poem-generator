@@ -13,19 +13,22 @@
     </header>
 
     <main>
-      <form id="poem-generator-form">
-        <input
-          type="text"
-          placeholder="Enter the topic of the Telugu poem"
-          autofocus
-          required
-          autocomplete="off"
-          class="instructions",
-          id="user-instructions"
-        />
-        <input type="submit" class="submit-button" />
-      </form>
-      <div class="poem" id="poem"></div>
+        <div class="form-container">
+            <form id="poem-generator-form">
+              <input
+                type="text"
+                placeholder="Enter the topic of a French poem"
+                autofocus
+                required
+                autocomplete="off"
+                class="instructions"
+                id="user-instructions"
+              />
+              <input type="submit" class="submit-button" />
+            </form>
+            <div class="hint">i.e: Flower, Hyderabad, Biryani</div>
+          </div>
+      <div class="poem hidden" id="poem"></div>
     </main>
     
 
